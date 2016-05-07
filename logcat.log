@@ -1,0 +1,629 @@
+05-07 14:53:01.090 21064-21064/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 21064
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 14:53:16.628 21856-21856/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 21856
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 14:53:29.458 22095-22095/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 22095
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 14:53:52.526 23006-23006/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 23006
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 14:54:54.127 23293-23293/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 23293
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 14:55:27.180 25648-25648/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 25648
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:01:02.402 30335-30335/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 30335
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:09:18.292 6921-6921/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                 Process: com.whatsapp, PID: 6921
+                                                 java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                     at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                     at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                     at android.os.Looper.loop(Looper.java:148)
+                                                     at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                     at java.lang.reflect.Method.invoke(Native Method)
+                                                     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                  Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                     at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                     at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                     at android.os.Parcel.readValue(Parcel.java:2264)
+                                                     at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                     at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                     at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                     at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                     at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                     at android.app.Activity.performCreate(Activity.java:6245)
+                                                     at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                     at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                     at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                     at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                     at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                     at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                     at android.os.Looper.loop(Looper.java:148) 
+                                                     at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                     at java.lang.reflect.Method.invoke(Native Method) 
+                                                     at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:13:30.913 288-288/? A/DEBUG: pid: 14094, tid: 14108, name: WhatsApp Worker  >>> com.whatsapp <<<
+05-07 15:31:31.773 2454-5808/? I/ActivityManager: START u0 {act=android.intent.action.SEND typ=text/plain flg=0x1b088001 pkg=com.whatsapp cmp=com.whatsapp/.ContactPicker clip={text/plain T:!!! BOOM !!!} (has extras)} from uid 10161 on display 0
+05-07 15:31:32.218 18276-18276/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 18276
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:31:32.232 2454-5808/? W/ActivityManager:   Force finishing activity com.whatsapp/.ContactPicker
+05-07 15:31:32.591 2454-4182/? V/AlarmManager: sending alarm {e76e46d type 3 *alarm*:com.whatsapp.action.HOURLY_CRON}
+05-07 15:31:32.592 2454-4182/? V/AlarmManager: sending alarm {b86a8a2 type 3 *alarm*:com.whatsapp.action.UPDATE_NTP}
+05-07 15:31:32.796 2454-2468/? W/ActivityManager: Activity pause timeout for ActivityRecord{8bbe637 u0 com.whatsapp/.ContactPicker t1956 f}
+05-07 15:31:32.800 263-263/? D/SFPerfTracer:        layers: (5:13) (FocusedStackFrame (0xb77bdae0): 0:28308)* (DimLayer (0xb78638a0): 0:527)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423548) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6332)* (DimLayer (0xb7854388): 10:35335) (DimLayer (0xb785e1a0): 0:4736)* (NavigationBar (0xb784a2a8): 0:3895) (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb785a648): 0:103)- (Toast (0xb7892a40): 0:63)- (Toast (0xb7892a40): 0:31) (Starting com.whatsapp (0xb7824120): 0:22)* (Application Error: com.whatsapp (0xb7894328): 8:16) 
+05-07 15:31:34.482 2454-4280/? I/ActivityManager: Process com.whatsapp (pid 18276) has died
+05-07 15:31:34.483 2454-4280/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 1000ms
+05-07 15:31:34.508 2454-2454/? V/AlarmManager: done {e76e46d, *alarm*:com.whatsapp.action.HOURLY_CRON} [1918ms]
+05-07 15:31:34.519 2454-2468/? I/ActivityManager: Start proc 18779:com.whatsapp/u0a112 for broadcast com.whatsapp/.AlarmBroadcastReceiver
+05-07 15:31:36.646 2454-2454/? V/AlarmManager: done {b86a8a2, *alarm*:com.whatsapp.action.UPDATE_NTP} [4056ms]
+05-07 15:31:36.766 263-263/? D/SFPerfTracer:        layers: (5:13) (FocusedStackFrame (0xb77bdae0): 1:28312)* (DimLayer (0xb78638a0): 0:527)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423553) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6333) (DimLayer (0xb7854388): 0:35346)* (DimLayer (0xb785e1a0): 0:4736)* (NavigationBar (0xb784a2a8): 0:3895) (Toast (0xb7892a40): 0:61)- (Starting com.whatsapp (0xb7824120): 0:22)- (Application Error: com.whatsapp (0xb7894328): 0:48)- (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7892a40): 0:20) (Starting com.jhetox.missileguidedforandroid (0xb7824120): 21:23) 
+05-07 15:31:38.480 18779-18779/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:31:38.711 2454-4826/? I/ActivityManager: START u0 {act=android.intent.action.SEND typ=text/plain flg=0x1b088001 pkg=com.whatsapp cmp=com.whatsapp/.ContactPicker clip={text/plain T:!!! BOOM !!!} (has extras)} from uid 10161 on display 0
+05-07 15:31:39.193 18779-18779/? E/Parcel: Class not found when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                           java.lang.ClassNotFoundException: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                               at java.lang.Class.classForName(Native Method)
+                                               at java.lang.Class.forName(Class.java:324)
+                                               at android.os.Parcel.readParcelableCreator(Parcel.java:2404)
+                                               at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                               at android.os.Parcel.readValue(Parcel.java:2264)
+                                               at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                               at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                               at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                               at android.content.Intent.getStringExtra(Intent.java:5359)
+                                               at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                               at android.app.Activity.performCreate(Activity.java:6245)
+                                               at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                               at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                               at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                               at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                               at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                               at android.os.Handler.dispatchMessage(Handler.java:102)
+                                               at android.os.Looper.loop(Looper.java:148)
+                                               at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                               at java.lang.reflect.Method.invoke(Native Method)
+                                               at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                               at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                            Caused by: java.lang.ClassNotFoundException: Didn't find class "com.jhetox.missileguidedforandroid.bombs.MissileP" on path: DexPathList[[zip file "/system/framework/com.google.android.maps.jar", zip file "/data/app/com.whatsapp-1/base.apk"],nativeLibraryDirectories=[/data/app/com.whatsapp-1/lib/arm, /data/app/com.whatsapp-1/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]
+                                               at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+                                               at java.lang.Class.classForName(Native Method) 
+                                               at java.lang.Class.forName(Class.java:324) 
+                                               at android.os.Parcel.readParcelableCreator(Parcel.java:2404) 
+                                               at android.os.Parcel.readParcelable(Parcel.java:2358) 
+                                               at android.os.Parcel.readValue(Parcel.java:2264) 
+                                               at android.os.Parcel.readArrayMapInternal(Parcel.java:2614) 
+                                               at android.os.BaseBundle.unparcel(BaseBundle.java:221) 
+                                               at android.os.BaseBundle.getString(BaseBundle.java:920) 
+                                               at android.content.Intent.getStringExtra(Intent.java:5359) 
+                                               at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227) 
+                                               at android.app.Activity.performCreate(Activity.java:6245) 
+                                               at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130) 
+                                               at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379) 
+                                               at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                               at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                               at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                               at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                               at android.os.Looper.loop(Looper.java:148) 
+                                               at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                               at java.lang.reflect.Method.invoke(Native Method) 
+                                               at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                               at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+                                           	Suppressed: java.lang.ClassNotFoundException: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                               at java.lang.Class.classForName(Native Method)
+                                               at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+                                               at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+                                               		... 23 more
+                                            Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+05-07 15:31:39.198 18779-18779/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 18779
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:31:39.201 2454-5507/? W/ActivityManager: Process com.whatsapp has crashed too many times: killing!
+05-07 15:31:39.202 2454-5507/? W/ActivityManager:   Force finishing activity com.whatsapp/.ContactPicker
+05-07 15:31:39.207 2454-5507/? W/ActivityManager: Wtf, activity ActivityRecord{2483aa4 u0 com.whatsapp/.ContactPicker t1958 f} in proc activity list not using proc ProcessRecord{f308e42 18779:com.whatsapp/u0a112}?!? Using null instead.
+05-07 15:31:39.213 2454-5507/? I/ActivityManager: Killing 18779:com.whatsapp/u0a112 (adj 1): crash
+05-07 15:31:39.306 2454-4882/? W/ActivityManager: Spurious death for ProcessRecord{f308e42 0:com.whatsapp/u0a112}, curProc for 18779: null
+05-07 15:31:39.537 263-263/? D/SFPerfTracer:        layers: (6:14) (FocusedStackFrame (0xb77bdae0): 0:28318)* (DimLayer (0xb78638a0): 0:536) (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423554) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6334)* (DimLayer (0xb7854388): 1:35359)* (DimLayer (0xb785e1a0): 0:4736)* (NavigationBar (0xb784a2a8): 0:3895) (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7892a40): 0:20)- (Starting com.jhetox.missileguidedforandroid (0xb7824120): 0:36)- (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb7892a40): 0:54) (Toast (0xb7824120): 0:31) (Starting com.whatsapp (0xb788d300): 5:45)* (Application Error: system (0xb785a648): 0:16) 
+05-07 15:31:42.400 263-263/? D/SFPerfTracer:        layers: (4:13) (FocusedStackFrame (0xb77bdae0): 0:28318)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423555) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6334)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4738)* (NavigationBar (0xb784a2a8): 0:3895) (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb7892a40): 5:114) (Toast (0xb7824120): 0:61)- (Starting com.whatsapp (0xb788d300): 0:58)- (Application Error: system (0xb785a648): 0:25)- (Toast (0xb788d300): 0:33) 
+05-07 15:31:46.372 2454-4182/? V/AlarmManager: sending alarm {e76e46d type 3 *alarm*:com.whatsapp.action.HOURLY_CRON}
+05-07 15:31:46.373 2454-2468/? W/BroadcastQueue: Unable to launch app com.whatsapp/10112 for broadcast Intent { act=com.whatsapp.action.HOURLY_CRON flg=0x14 cmp=com.whatsapp/.AlarmBroadcastReceiver (has extras) }: process is bad
+05-07 15:31:46.375 2454-4182/? V/AlarmManager: sending alarm {b86a8a2 type 3 *alarm*:com.whatsapp.action.UPDATE_NTP}
+05-07 15:31:46.376 2454-2468/? W/BroadcastQueue: Unable to launch app com.whatsapp/10112 for broadcast Intent { act=com.whatsapp.action.UPDATE_NTP flg=0x14 cmp=com.whatsapp/.AlarmBroadcastReceiver (has extras) }: process is bad
+05-07 15:31:46.377 2454-2454/? V/AlarmManager: done {e76e46d, *alarm*:com.whatsapp.action.HOURLY_CRON} [6ms]
+05-07 15:31:46.377 2454-2454/? V/AlarmManager: done {b86a8a2, *alarm*:com.whatsapp.action.UPDATE_NTP} [7ms]
+05-07 15:31:53.428 2454-4182/? V/AlarmManager: sending alarm {3671832 type 2 *walarm*:com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION}
+05-07 15:31:53.468 2454-2454/? V/AlarmManager: done {3671832, *walarm*:com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION} [53ms]
+05-07 15:31:59.433 4289-4289/? D/TaskStackView: onTaskViewDismissed: task = Task (1941): com.whatsapp [com.android.systemui.recents.model.Task@88c75a0] index = 0 focused = false
+05-07 15:37:51.587 2454-4182/? V/AlarmManager: sending alarm {3671832 type 2 *walarm*:com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION}
+05-07 15:37:57.950 2454-5807/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.whatsapp/.Main bnds=[350,731][506,906] (has extras)} from uid 10052 on display 0
+05-07 15:37:58.075 2454-4673/? I/ActivityManager: Start proc 20776:com.whatsapp/u0a112 for activity com.whatsapp/.Main
+05-07 15:37:58.887 20776-20776/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:37:58.887 20776-20776/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:37:59.313 20776-20776/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:38:06.888 2454-4882/? I/ActivityManager: START u0 {cmp=com.whatsapp/.HomeActivity} from uid 10112 on display 0
+05-07 15:38:09.950 2454-2454/? V/AlarmManager: done {3671832, *walarm*:com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION} [18379ms]
+05-07 15:38:12.229 20776-20776/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:38:12.989 2454-2473/? I/LaunchCheckinHandler: Displayed com.whatsapp/.HomeActivity,wp,ca,5449
+05-07 15:38:12.991 2454-2473/? I/ActivityManager: Displayed com.whatsapp/.HomeActivity: +5s451ms (total +21s179ms)
+05-07 15:38:16.221 263-263/? D/SFPerfTracer:        layers: (3:11) (FocusedStackFrame (0xb77bdae0): 0:28340)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 1:423728) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6338)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 16:4005) (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7892a40): 0:59)- (Starting com.whatsapp (0xb7824120): 0:37)- (com.whatsapp/com.whatsapp.HomeActivity (0xb7892a40): 0:8) 
+05-07 15:38:18.460 2454-5507/? I/WindowState: WIN DEATH: Window{c02c35d u0 com.whatsapp/com.whatsapp.HomeActivity}
+05-07 15:38:18.474 2454-5807/? I/ActivityManager: Process com.whatsapp (pid 20776) has died
+05-07 15:38:18.475 2454-5807/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 49450ms
+05-07 15:38:19.270 263-263/? D/SFPerfTracer:        layers: (3:14) (FocusedStackFrame (0xb77bdae0): 0:28344)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423731) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6340)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4017) (com.whatsapp/com.whatsapp.HomeActivity (0xb7892a40): 0:30)- (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7824120): 0:29)- (thumbnail anim (0xb788d300): 0:22)- (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb7892a40): 5:45) (thumbnail anim (0xb788d300): 0:22)- (Toast (0xb7824120): 3:3)* 
+05-07 15:38:22.242 4289-4289/? D/TaskStackView: onTaskViewClicked: task = Task (1961): com.whatsapp [com.android.systemui.recents.model.Task@6aff248] index = 0
+05-07 15:38:22.282 2454-5507/? I/ActivityManager: Start proc 21709:com.whatsapp/u0a112 for activity com.whatsapp/.HomeActivity
+05-07 15:38:22.937 21709-21709/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:22.937 21709-21709/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:23.153 21709-21709/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:38:24.230 2454-4182/? V/AlarmManager: sending alarm {b86a8a2 type 3 *alarm*:com.whatsapp.action.UPDATE_NTP}
+05-07 15:38:24.231 2454-4182/? V/AlarmManager: sending alarm {e76e46d type 3 *alarm*:com.whatsapp.action.HOURLY_CRON}
+05-07 15:38:26.768 2454-4880/? I/WindowState: WIN DEATH: Window{27ef5c1 u0 com.whatsapp/com.whatsapp.HomeActivity}
+05-07 15:38:26.773 2454-5808/? I/ActivityManager: Process com.whatsapp (pid 21709) has died
+05-07 15:38:26.773 2454-5808/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 11152ms
+05-07 15:38:27.906 263-263/? D/SFPerfTracer:        layers: (4:14) (FocusedStackFrame (0xb77bdae0): 1:28354)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423733) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6343) (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4076) (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb788d300): 0:38)- (Starting com.whatsapp (0xb7892a40): 0:46)- (thumbnail anim (0xb7824120): 0:21)- (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7824120): 5:39) (thumbnail anim (0xb788d300): 0:23)- (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb7892a40): 6:7)* 
+05-07 15:38:31.531 4289-4289/? D/TaskStackView: onTaskViewClicked: task = Task (1961): com.whatsapp [com.android.systemui.recents.model.Task@4c6039a] index = 0
+05-07 15:38:31.634 2454-4342/? I/ActivityManager: Start proc 22317:com.whatsapp/u0a112 for activity com.whatsapp/.HomeActivity
+05-07 15:38:32.612 22317-22317/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:32.613 22317-22317/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:32.937 22317-22317/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:38:35.941 2454-2454/? V/AlarmManager: done {b86a8a2, *alarm*:com.whatsapp.action.UPDATE_NTP} [11717ms]
+05-07 15:38:36.416 2454-2454/? V/AlarmManager: done {e76e46d, *alarm*:com.whatsapp.action.HOURLY_CRON} [12192ms]
+05-07 15:38:36.876 2454-2473/? I/ActivityManager: Displayed com.whatsapp/.HomeActivity: +5s266ms (total +14s604ms)
+05-07 15:38:38.144 22317-22317/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:38:39.506 263-263/? D/SFPerfTracer:        layers: (3:13) (FocusedStackFrame (0xb77bdae0): 0:28361)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423735) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6346)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4103) (Toast (0xb788d300): 0:56)- (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7824120): 0:29)- (Starting com.whatsapp (0xb7892a40): 0:34)- (thumbnail anim (0xb785a648): 0:21)- (com.whatsapp/com.whatsapp.HomeActivity (0xb785a648): 62:99) 
+05-07 15:38:41.941 263-263/? D/SFPerfTracer:        layers: (6:11) (FocusedStackFrame (0xb77bdae0): 0:28363)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423737) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6347) (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 9:4137) (com.whatsapp/com.whatsapp.HomeActivity (0xb785a648): 11:184) (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7892a40): 0:4) (thumbnail anim (0xb7824120): 11:21) 
+05-07 15:38:43.877 2454-5395/? I/WindowState: WIN DEATH: Window{bd520e0 u0 com.whatsapp/com.whatsapp.HomeActivity}
+05-07 15:38:43.883 2454-4675/? I/ActivityManager: Process com.whatsapp (pid 22317) has died
+05-07 15:38:43.883 2454-4675/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 1000ms
+05-07 15:38:44.901 2454-2468/? I/ActivityManager: Start proc 22802:com.whatsapp/u0a112 for service com.whatsapp/.messaging.MessageService
+05-07 15:38:45.564 22802-22802/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:45.564 22802-22802/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:45.714 22802-22802/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:38:48.033 22802-22802/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:38:49.429 4289-4289/? D/TaskStackView: onTaskViewClicked: task = Task (1961): com.whatsapp [com.android.systemui.recents.model.Task@7e756fa] index = 0
+05-07 15:38:50.829 2454-2473/? I/ActivityManager: Displayed com.whatsapp/.HomeActivity: +1s374ms
+05-07 15:38:51.837 4289-4289/? D/TaskStackView: onTaskViewDismissed: task = Task (1961): com.whatsapp [com.android.systemui.recents.model.Task@7e756fa] index = 0 focused = false
+05-07 15:38:51.854 263-263/? D/SFPerfTracer:        layers: (4:14) (FocusedStackFrame (0xb77bdae0): 0:28378)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423745) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6351) (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4209) (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb785a648): 0:58)- (Starting com.whatsapp (0xb7892a40): 0:35)- (thumbnail anim (0xb7824120): 0:22)- (com.whatsapp/com.whatsapp.HomeActivity (0xb785a648): 0:28)- (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7824120): 23:28) (thumbnail anim (0xb7892a40): 0:23)- 
+05-07 15:38:51.903 2454-4880/? I/ActivityManager: Killing 22802:com.whatsapp/u0a112 (adj 16): remove task
+05-07 15:38:52.027 2454-5808/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 1000ms
+05-07 15:38:53.052 2454-2468/? I/ActivityManager: Start proc 23016:com.whatsapp/u0a112 for service com.whatsapp/.messaging.MessageService
+05-07 15:38:53.300 23016-23016/? W/art: Verification of void com.whatsapp.App.<clinit>() took 140.606ms
+05-07 15:38:53.802 23016-23016/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:53.802 23016-23016/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:38:54.019 23016-23016/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:38:54.735 2454-5704/? I/ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.whatsapp/.Main bnds=[350,731][506,906] (has extras)} from uid 10052 on display 0
+05-07 15:38:55.432 2454-4673/? I/ActivityManager: START u0 {cmp=com.whatsapp/.HomeActivity} from uid 10112 on display 0
+05-07 15:38:56.576 2454-2473/? I/LaunchCheckinHandler: Displayed com.whatsapp/.HomeActivity,wp,ca,1044
+05-07 15:38:56.576 2454-2473/? I/ActivityManager: Displayed com.whatsapp/.HomeActivity: +1s44ms (total +1s735ms)
+05-07 15:38:56.841 23016-23016/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:38:56.875 263-263/? D/SFPerfTracer:        layers: (3:12) (FocusedStackFrame (0xb77bdae0): 0:28386)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423750) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6352)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4209) (com.android.systemui/com.android.systemui.recents.RecentsActivity (0xb7824120): 0:41)- (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7892a40): 0:42)- (Starting com.whatsapp (0xb7824120): 0:36)- (com.whatsapp/com.whatsapp.HomeActivity (0xb7892a40): 0:5) 
+05-07 15:39:00.003 2454-4182/? V/AlarmManager: sending alarm {e76e46d type 3 *alarm*:com.whatsapp.action.HOURLY_CRON}
+05-07 15:39:00.004 2454-4182/? V/AlarmManager: sending alarm {b86a8a2 type 3 *alarm*:com.whatsapp.action.UPDATE_NTP}
+05-07 15:39:00.031 2454-2454/? V/AlarmManager: done {e76e46d, *alarm*:com.whatsapp.action.HOURLY_CRON} [30ms]
+05-07 15:39:00.042 2454-2454/? V/AlarmManager: done {b86a8a2, *alarm*:com.whatsapp.action.UPDATE_NTP} [41ms]
+05-07 15:39:03.539 263-263/? D/SFPerfTracer:        layers: (5:11) (FocusedStackFrame (0xb77bdae0): 1:28391)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423758) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6353) (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 0:4740)* (NavigationBar (0xb784a2a8): 0:4238) (com.whatsapp/com.whatsapp.HomeActivity (0xb7892a40): 0:49)- (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7824120): 0:19) (Starting com.jhetox.missileguidedforandroid (0xb7892a40): 19:21) 
+05-07 15:39:04.957 2454-4880/? I/ActivityManager: START u0 {act=android.intent.action.SEND typ=text/plain flg=0x1b088001 pkg=com.whatsapp cmp=com.whatsapp/.ContactPicker clip={text/plain T:!!! BOOM !!!} (has extras)} from uid 10161 on display 0
+05-07 15:39:05.047 23336-23336/? E/ActivityThread: Activity com.android.internal.app.ChooserActivity has leaked ServiceConnection ActivityInfo{e0a11af com.whatsapp.ContactPicker} that was originally bound here
+                                                   android.app.ServiceConnectionLeaked: Activity com.android.internal.app.ChooserActivity has leaked ServiceConnection ActivityInfo{e0a11af com.whatsapp.ContactPicker} that was originally bound here
+                                                       at android.app.LoadedApk$ServiceDispatcher.<init>(LoadedApk.java:1092)
+                                                       at android.app.LoadedApk.getServiceDispatcher(LoadedApk.java:986)
+                                                       at android.app.ContextImpl.bindServiceCommon(ContextImpl.java:1303)
+                                                       at android.app.ContextImpl.bindServiceAsUser(ContextImpl.java:1293)
+                                                       at android.content.ContextWrapper.bindServiceAsUser(ContextWrapper.java:611)
+                                                       at com.android.internal.app.ChooserActivity.queryTargetServices(ChooserActivity.java:375)
+                                                       at com.android.internal.app.ChooserActivity.createAdapter(ChooserActivity.java:511)
+                                                       at com.android.internal.app.ResolverActivity.configureContentView(ResolverActivity.java:818)
+                                                       at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:237)
+                                                       at com.android.internal.app.ChooserActivity.onCreate(ChooserActivity.java:198)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+05-07 15:39:05.162 23016-23016/? E/Parcel: Class not found when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                           java.lang.ClassNotFoundException: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                               at java.lang.Class.classForName(Native Method)
+                                               at java.lang.Class.forName(Class.java:324)
+                                               at android.os.Parcel.readParcelableCreator(Parcel.java:2404)
+                                               at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                               at android.os.Parcel.readValue(Parcel.java:2264)
+                                               at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                               at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                               at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                               at android.content.Intent.getStringExtra(Intent.java:5359)
+                                               at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                               at android.app.Activity.performCreate(Activity.java:6245)
+                                               at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                               at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                               at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                               at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                               at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                               at android.os.Handler.dispatchMessage(Handler.java:102)
+                                               at android.os.Looper.loop(Looper.java:148)
+                                               at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                               at java.lang.reflect.Method.invoke(Native Method)
+                                               at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                               at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                            Caused by: java.lang.ClassNotFoundException: Didn't find class "com.jhetox.missileguidedforandroid.bombs.MissileP" on path: DexPathList[[zip file "/system/framework/com.google.android.maps.jar", zip file "/data/app/com.whatsapp-1/base.apk"],nativeLibraryDirectories=[/data/app/com.whatsapp-1/lib/arm, /data/app/com.whatsapp-1/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]
+                                               at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:511)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:469)
+                                               at java.lang.Class.classForName(Native Method) 
+                                               at java.lang.Class.forName(Class.java:324) 
+                                               at android.os.Parcel.readParcelableCreator(Parcel.java:2404) 
+                                               at android.os.Parcel.readParcelable(Parcel.java:2358) 
+                                               at android.os.Parcel.readValue(Parcel.java:2264) 
+                                               at android.os.Parcel.readArrayMapInternal(Parcel.java:2614) 
+                                               at android.os.BaseBundle.unparcel(BaseBundle.java:221) 
+                                               at android.os.BaseBundle.getString(BaseBundle.java:920) 
+                                               at android.content.Intent.getStringExtra(Intent.java:5359) 
+                                               at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227) 
+                                               at android.app.Activity.performCreate(Activity.java:6245) 
+                                               at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130) 
+                                               at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379) 
+                                               at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                               at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                               at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                               at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                               at android.os.Looper.loop(Looper.java:148) 
+                                               at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                               at java.lang.reflect.Method.invoke(Native Method) 
+                                               at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                               at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+                                           	Suppressed: java.lang.ClassNotFoundException: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                               at java.lang.Class.classForName(Native Method)
+                                               at java.lang.BootClassLoader.findClass(ClassLoader.java:781)
+                                               at java.lang.BootClassLoader.loadClass(ClassLoader.java:841)
+                                               at java.lang.ClassLoader.loadClass(ClassLoader.java:504)
+                                               		... 23 more
+                                            Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+05-07 15:39:05.180 23016-23016/? E/AndroidRuntime: FATAL EXCEPTION: main
+                                                   Process: com.whatsapp, PID: 23016
+                                                   java.lang.RuntimeException: Unable to start activity ComponentInfo{com.whatsapp/com.whatsapp.ContactPicker}: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2426)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490)
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java)
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354)
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102)
+                                                       at android.os.Looper.loop(Looper.java:148)
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443)
+                                                       at java.lang.reflect.Method.invoke(Native Method)
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728)
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618)
+                                                    Caused by: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP
+                                                       at android.os.Parcel.readParcelableCreator(Parcel.java:2432)
+                                                       at android.os.Parcel.readParcelable(Parcel.java:2358)
+                                                       at android.os.Parcel.readValue(Parcel.java:2264)
+                                                       at android.os.Parcel.readArrayMapInternal(Parcel.java:2614)
+                                                       at android.os.BaseBundle.unparcel(BaseBundle.java:221)
+                                                       at android.os.BaseBundle.getString(BaseBundle.java:920)
+                                                       at android.content.Intent.getStringExtra(Intent.java:5359)
+                                                       at com.whatsapp.ContactPicker.onCreate(ContactPicker.java:227)
+                                                       at android.app.Activity.performCreate(Activity.java:6245)
+                                                       at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1130)
+                                                       at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2379)
+                                                       at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2490) 
+                                                       at android.app.ActivityThread.-wrap11(ActivityThread.java) 
+                                                       at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1354) 
+                                                       at android.os.Handler.dispatchMessage(Handler.java:102) 
+                                                       at android.os.Looper.loop(Looper.java:148) 
+                                                       at android.app.ActivityThread.main(ActivityThread.java:5443) 
+                                                       at java.lang.reflect.Method.invoke(Native Method) 
+                                                       at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:728) 
+                                                       at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:618) 
+05-07 15:39:05.221 2454-4342/? W/ActivityManager:   Force finishing activity com.whatsapp/.ContactPicker
+05-07 15:39:05.295 263-263/? D/SFPerfTracer:        layers: (6:13) (FocusedStackFrame (0xb77bdae0): 1:28397)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 0:423759) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6354)* (DimLayer (0xb7854388): 0:35359)* (DimLayer (0xb785e1a0): 1:4741) (NavigationBar (0xb784a2a8): 0:4238) (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7824120): 0:19)- (Starting com.jhetox.missileguidedforandroid (0xb7892a40): 0:33)- (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb788d300): 12:35) (Toast (0xb7892a40): 12:22) (Starting com.whatsapp (0xb7824120): 12:14) 
+05-07 15:39:05.776 2454-2468/? W/ActivityManager: Activity pause timeout for ActivityRecord{141ba20 u0 com.whatsapp/.ContactPicker t1964 f}
+05-07 15:39:09.209 2454-4675/? I/WindowState: WIN DEATH: Window{a649071 u0 com.whatsapp/com.whatsapp.HomeActivity}
+05-07 15:39:09.214 2454-5704/? I/ActivityManager: Process com.whatsapp (pid 23016) has died
+05-07 15:39:09.214 2454-5704/? W/ActivityManager: Scheduling restart of crashed service com.whatsapp/.messaging.MessageService in 1000ms
+05-07 15:39:10.227 2454-2468/? I/ActivityManager: Start proc 23464:com.whatsapp/u0a112 for service com.whatsapp/.messaging.MessageService
+05-07 15:39:10.960 23464-23464/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:39:10.960 23464-23464/? I/art: Rejecting re-init on previously-failed class java.lang.Class<com.whatsapp.adm.ADMMessageHandler>
+05-07 15:39:11.129 23464-23464/? D/Event: No subscribers registered for event class com.whatsapp.dh
+05-07 15:39:13.299 2454-4182/? V/AlarmManager: sending alarm {e76e46d type 3 *alarm*:com.whatsapp.action.HOURLY_CRON}
+05-07 15:39:13.301 2454-4182/? V/AlarmManager: sending alarm {b86a8a2 type 3 *alarm*:com.whatsapp.action.UPDATE_NTP}
+05-07 15:39:13.310 23464-23464/? D/Event: No subscribers registered for event class com.whatsapp.a7h
+05-07 15:39:13.310 2454-2454/? V/AlarmManager: done {e76e46d, *alarm*:com.whatsapp.action.HOURLY_CRON} [12ms]
+05-07 15:39:13.321 2454-2454/? V/AlarmManager: done {b86a8a2, *alarm*:com.whatsapp.action.UPDATE_NTP} [22ms]
+05-07 15:39:20.373 263-263/? D/SFPerfTracer:        layers: (4:13) (FocusedStackFrame (0xb77bdae0): 0:28399)* (DimLayer (0xb78638a0): 0:549)* (DimLayer (0xb7866710): 0:8)* (StatusBar (0xb7874260): 1:423768) (com.android.systemui.ImageWallpaper (0xb785c418): 0:6355) (DimLayer (0xb7854388): 0:35379)* (DimLayer (0xb785e1a0): 0:4742)* (NavigationBar (0xb784a2a8): 0:4238) (com.jhetox.missileguidedforandroid/com.jhetox.missileguidedforandroid.MainActivity (0xb788d300): 0:36)- (Toast (0xb7892a40): 0:60)- (Starting com.whatsapp (0xb7824120): 0:21)- (Application Error: com.whatsapp (0xb788d300): 0:44)- (com.google.android.googlequicksearchbox/com.google.android.launcher.GEL (0xb7892a40): 0:12) 
+
