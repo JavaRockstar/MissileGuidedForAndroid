@@ -15,11 +15,16 @@ It is really simple to send a Parcelable or Serializable to an application, serv
 
 Note: Because I do not bring anything, simple, always they do not answer me that is not a security breach, or do not respond to me, and every time they do not even thanks to me.
 
-Happy Cyber War \m/
+Logcat: [Logcat](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/logcat.log)<BR/>
+APK: [APK](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/MissileGuidedForAndroid.apk)<BR/>
+
+
+Happy Cyber War \m/<BR/><BR/>
 
  
 
 This code was developed by me: Jheto Xekri
+
 
 You can contact me in:
 
