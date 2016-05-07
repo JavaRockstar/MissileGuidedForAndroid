@@ -13,7 +13,7 @@ referenced by a DexClassLoader, and only that, not the other clases compiled in 
 
 It is really simple to send a Parcelable or Serializable to an application, service, methods, etc, if the application does not contain these classes simply crash (explodes), Well with this simple theory, just enough to find entry points to send these Parcelable and / or Serializable.
 
-Note: Because I do not bring anything, simple, always they do not answer me that is not a security breach, or do not respond to me, and every time they do not even thanks to me.
+Note: Because I do not bring anything, simple, always they do not answer me that is not a security breach, or do not respond to me, and every time they do not even thanks to me, sorry WhatsApp, is easy for me test things with you application.
 
 Logcat: [Logcat](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/logcat.log)<BR/>
 APK: [APK](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/MissileGuidedForAndroid.apk)<BR/>
