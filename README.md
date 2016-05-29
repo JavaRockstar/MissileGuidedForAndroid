@@ -15,8 +15,10 @@ It is really simple to send a Parcelable or Serializable to an application, serv
 
 Note: Because I do not bring anything, simple, always they do not answer me that is not a security breach, or do not respond to me, and every time they do not even thanks to me, sorry WhatsApp, is easy for me test things with you application.
 
-Logcat: [Logcat](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/logcat.log)<BR/>
-APK: [APK](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/MissileGuidedForAndroid.apk)<BR/>
+Logcat Application: [Logcat](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/logcat_app.log)<BR/>
+Logcat Service: [Logcat](https://raw.githubusercontent.com/JhetoX/MissileGuidedForAndroid/master/logcat_srv.log)<BR/>
+
+Notes: Update new method for crash Services/receivers.
 
 
 Happy Cyber War \m/<BR/><BR/>

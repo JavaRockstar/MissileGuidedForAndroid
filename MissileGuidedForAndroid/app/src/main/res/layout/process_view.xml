@@ -21,4 +21,11 @@
         android:text="Send Missile For App"
         android:id="@+id/buttonApplication" />
 
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Missile For Receiver"
+        android:id="@+id/buttonReceiver" />
+
 </LinearLayout>

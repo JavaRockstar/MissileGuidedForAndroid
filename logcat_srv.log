@@ -1,0 +1,3 @@
+05-17 20:33:36.132 23183-23183/? E/Parcel:  Caused by: java.lang.ClassNotFoundException: Didn't find class "com.jhetox.missileguidedforandroid.bombs.MissileP" on path: DexPathList[[zip file "/system/framework/com.google.android.maps.jar", zip file "/data/app/com.whatsapp-2/base.apk"],nativeLibraryDirectories=[/data/app/com.whatsapp-2/lib/arm, /data/app/com.whatsapp-2/base.apk!/lib/armeabi-v7a, /vendor/lib, /system/lib]]
+05-17 20:33:36.503 23183-23183/? E/AndroidRuntime: Process: com.whatsapp, PID: 23183
+05-17 20:33:36.503 23183-23183/? E/AndroidRuntime: java.lang.RuntimeException: Unable to start receiver com.whatsapp.appwidget.WidgetProvider: android.os.BadParcelableException: ClassNotFoundException when unmarshalling: com.jhetox.missileguidedforandroid.bombs.MissileP

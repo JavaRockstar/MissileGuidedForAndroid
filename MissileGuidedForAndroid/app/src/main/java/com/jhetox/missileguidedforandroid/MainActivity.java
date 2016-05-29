@@ -15,10 +15,10 @@ import android.widget.Toast;
 import com.jhetox.missileguidedforandroid.bombs.MissileP;
 import com.jhetox.missileguidedforandroid.bombs.MissileS;
 import com.jhetox.missileguidedforandroid.tools.ProcessEnumerator;
-import com.jhetox.missileguidedforandroid.tools.ServiceEnumerator;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static String BROADCAST_TARGET = "android.appwidget.action.APPWIDGET_UPDATE";
     private static String PACKAGE_TARGET = "com.whatsapp";
 
     private final MediaPlayer mp = new MediaPlayer();
@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             mp.reset();
             AssetFileDescriptor afd = getAssets().openFd("missile.mp3");
-            mp.setDataSource(afd.getFileDescriptor(),afd.getStartOffset(),afd.getLength());
+            mp.setDataSource(afd.getFileDescriptor(), afd.getStartOffset(), afd.getLength());
             mp.prepare();
             mp.start();
         } catch (Exception e) {
@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
         Button buttonApplication = (Button)findViewById(R.id.buttonApplication);
+        Button buttonBroadcast = (Button)findViewById(R.id.buttonBroadcast);
 
         buttonApplication.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +54,50 @@ public class MainActivity extends AppCompatActivity {
                 initLaunchMissileForApp();
             }
         });
+
+        buttonBroadcast.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                initLaunchMissileForBroadcast();
+            }
+        });
+    }
+
+    private static Intent generateIntent(String action){
+        Intent intent = new Intent();
+        intent.setPackage(PACKAGE_TARGET);
+        intent.setAction(action);
+        intent.putExtra("MP", new MissileP());
+        intent.putExtra("MS", new MissileS());
+        return intent;
+    }
+
+    private static void launchIntent(Context context){
+        try{
+            Intent intent = generateIntent(BROADCAST_TARGET);
+            context.sendBroadcast(intent);
+        }catch (Exception e){
+            Log.e(MainActivity.class.getSimpleName(), e.toString());
+            if(context != null) Toast.makeText(context, "!!! ERROR !!! " + e.toString(), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    private void initLaunchMissileForBroadcast(){
+
+        boolean isRunningApp = false;
+        for(ProcessEnumerator.Process p:ProcessEnumerator.enumerate(this)){
+            if(p.getPackageName().contains(PACKAGE_TARGET)){
+                isRunningApp = true;
+                break;
+            }
+        }
+
+        if(isRunningApp) {
+            playMissile();
+            launchIntent(this);
+            vibrator.vibrate(200);
+        }
+        else Toast.makeText(this, "The target " + PACKAGE_TARGET + " is not active", Toast.LENGTH_SHORT).show();
     }
 
     private void initLaunchMissileForApp(){
